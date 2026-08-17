@@ -1,0 +1,107 @@
+body {
+    background-image:url('kuvat/68.jpg');
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+header {
+    background-color: rgba(128, 225, 226, 0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 10px;
+}
+div {
+    background-color: rgba(128, 225, 226, 0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 40px;
+    
+}
+p{
+    width: 75%;
+    margin: 30px;
+}
+img {
+    width: 13em;
+}
+.kuva{
+    text-align: right;
+}
+.ek {
+    width: 90%;
+}
+iframe {
+    float: right;
+    padding: 50px;
+    border: 0px;
+}
+a{
+    padding: 7px;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(18, 129, 87);
+}
+a:visited{
+text-decoration: none;
+color:rgb(18, 129, 87)
+}
+a:hover{
+font-size: 120%;
+color:deeppink
+}
+a:active{
+font-size: 120%;
+background: rgb(250, 141, 235);
+color:deeppink;
+}
+
+ul {
+    width: 60%;
+    column-count: 2;
+     margin-bottom: 30px;
+   
+  }
+.ohje{
+    background-color: rgba(128, 225, 226, 0.0);  
+}
+h1{
+    font-family: 'Lucida Handwriting', Arial, sans-serif;
+    font-size: 4em;
+    margin-left: 40px;
+    padding-top: 30px;
+
+  }
+h1:hover {
+    color: deeppink;
+}
+h2 {
+    font-size: 1.5 em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2:hover {
+    color: deeppink;
+}
+h2 {
+    font-size: 1.2 em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h3:hover{
+    color: deeppink; 
+}
+th {
+    text-align: left;
+    padding-top: 30px;
+}
+td{
+     
+      padding-left: 20px;
+  }
+  form {
+      padding: 30px;
+  }
+  .sitaatti{
+    font-family: 'Lucida Handwriting', Arial, sans-serif;
+    padding-left: 45px;
+    font-size: 1.2em;
+  }

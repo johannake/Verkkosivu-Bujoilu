@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ota yhteyttä</title>
+<link rel="stylesheet" href="sivucss.css">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body>
+    <header>
+        <a href="index.html">Etusivu</a> <a href="ohje.html">Ohjeita alkuunpääsemiseksi</a> <a href="tarvikkeet.html">Tarvikkeet</a>
+        <a href="kuvat.html">Kuvia</a> <strong>Ota yhteyttä</strong> <a href="linkit.html">Linkkejä</a> <hr>
+    </header>
+    <div>  
+<h2>Yhteydenottolomake</h2>
+<p>Jos sinulla on kysyttävää, palautetta tai haluat muuten vain lähettää minulle terveisiä, voit tehdä sen tämän lomakkeen avulla.</p>
+
+<form>
+    <label for="nimi">Nimi:</label><br>
+    <input type="text" id="name" maxlength="80" value="Maija Meikäläinen" style="width: 200px;"><br>
+    <label for="email">Sähköposti:</label><br>
+    <input type="email" id="email" maxlength="200" value="nimi@esimerkki.com" style="width: 200px;"><br>
+    <br>
+    <input type="radio" id="kysymys" name="aihe" value="kysymys">
+   <label for="lehti">Kysymys</label><br>
+   <input type="radio" id="palaute" name="aihe" value="palaute">
+   <label for="kirja">Palaute</label><br>
+   <input type="radio" id="terveiset" name="aihe" value="terveiset">
+   <label for="terveiset">Muut terveiset</label><br> <br>
+    <textarea rows="5"  id="palaute" style="width: 200px;"> Kirjoita viestisi tähän... </textarea><br>
+    <br> 
+   <input type="submit" value="Lähetä" style="width: 80px;">
+   <input type="reset" value="Tyhjennä" style="width: 80px;">
+    
+</form>
+</div>
+</body>
+</html>
